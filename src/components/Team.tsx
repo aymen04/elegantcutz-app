@@ -1,7 +1,7 @@
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
-import { Star, Award } from 'lucide-react';
+import { Award } from 'lucide-react';
 import { barbers, type Barber } from '@/lib/data';
 import { InteractiveBackground } from './InteractiveBackground';
 
@@ -61,13 +61,7 @@ export function Team({ onSelectBarber }: TeamProps) {
                 )}
 
                 {/* Quick Stats */}
-                <div className="absolute bottom-4 left-4 right-4 flex items-center justify-between">
-                  <div className="flex items-center gap-1 bg-zinc-950/80 backdrop-blur-sm px-3 py-1.5 rounded-full">
-                    <Star className="w-4 h-4 text-amber-500 fill-amber-500" />
-                    <span className="text-white font-semibold text-sm">{barber.rating}</span>
-                    <span className="text-zinc-400 text-sm">({barber.reviews})</span>
-                  </div>
-                </div>
+               
               </div>
 
               <CardContent className="p-6">

@@ -5,8 +5,8 @@ export interface Barber {
   role: string;
   description: string;
   image: string;
-  rating: number;
-  reviews: number;
+  
+  
   specialties: string[];
   availability: DayAvailability[];
 }
@@ -221,8 +221,8 @@ export const barbers: Barber[] = [
     role: 'Owner Barber & Stylist',
     description: 'With over 13 years of experience, I specialize in precision cuts, modern styles, and expert grooming. As the owner of ELEGANT CUT, my focus is on providing exceptional service and creating a professional, welcoming experience for every client.',
     image: '/hamed.webp',
-    rating: 5.0,
-    reviews: 156,
+ 
+    
     specialties: ['Skinfade', 'Curly Hair', 'Facial'],
     availability: [
       { day: 1, slots: ['10:00', '10:30', '11:00', '11:30', '12:00', '12:30', '13:00', '13:30', '14:00', '14:30', '15:00', '15:30'] },
@@ -238,9 +238,7 @@ export const barbers: Barber[] = [
     name: 'Vincent',
     role: 'Junior Barber & Stylist',
     description: 'Nous sommes heureux de vous présenter Vincent, notre nouveau barbier apprenti. Il sait déjà très bien couper les cheveux et continue de perfectionner ses techniques sous la supervision d\'un barbier professionnel. Venez encourager la relève et profitez d\'une coupe propre à un excellent prix!',
-    image: '/vincent.webp',
-    rating: 4.9,
-    reviews: 98,
+    image: '/vincent.webp', 
     specialties: ['Coupe Classique', 'Coupe Enfant', 'Contour'],
     availability: [
       { day: 1, slots: ['10:00', '10:30', '11:00', '11:30', '12:00', '12:30', '13:00', '13:30', '14:00', '14:30', '15:00', '15:30'] },
@@ -257,8 +255,8 @@ export const barbers: Barber[] = [
     role: 'Barber & Stylist',
     description: 'Nous sommes heureux d\'accueillir Ikram, notre nouveau barbier venu du Pakistan, avec 10 ans d\'expérience dans la coupe masculine. We are happy to welcome Ikram, our new barber from Pakistan, with 10 years of experience in men\'s haircuts.',
     image: '/ikram.webp',
-    rating: 4.9,
-    reviews: 87,
+   
+    
     specialties: ['Coupe', 'Barbe', 'Kids Skinfade'],
     availability: [
       { day: 1, slots: ['10:00', '10:30', '11:00', '11:30', '12:00', '12:30', '13:00', '13:30', '14:00', '14:30', '15:00', '15:30'] },
@@ -275,8 +273,8 @@ export const barbers: Barber[] = [
     role: 'Nail Artist | Manicure & Pedicure',
     description: 'I am a dedicated nail artist focused on providing clean, high-quality manicure and pedicure services. I value precision, comfort, and creating a relaxing experience for every client.',
     image: '/anosha.webp',
-    rating: 4.8,
-    reviews: 67,
+    
+    
     specialties: ['Manucure', 'Pédicure', 'Nail Art'],
     availability: [
       { day: 1, slots: ['10:00', '10:30', '11:00', '11:30', '12:00', '12:30', '13:00', '13:30', '14:00', '14:30', '15:00', '15:30'] },
@@ -359,6 +357,6 @@ export const businessInfo = {
   instagram: '@elegantcut_beautylounge',
   facebook: 'Elegant Cut',
   yearsInBusiness: 10,
-  totalClients: 205,
+  totalClients: 160,
   googleRating: 4.9,
 };

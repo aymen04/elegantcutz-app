@@ -61,16 +61,17 @@ Depuis plus de dix ans, Elegant Cut Barber Shop s’engage à offrir des coupes 
           <div className="flex items-center gap-2">
             <Star className="w-5 h-5 text-amber-500 fill-amber-500" />
             <span className="text-white font-semibold">{businessInfo.googleRating}</span>
-            <span className="text-zinc-500">{t('hero.google')}</span>
+            <span className="text-zinc-500">{t('sur Google')}</span>
           </div>
           <div className="w-px h-6 bg-zinc-700" />
           <div className="flex items-center gap-2">
             <span className="text-white font-semibold">{businessInfo.totalClients.toLocaleString()}+</span>
-            <span className="text-zinc-500">{t('hero.reviews')}</span>
+            <span className="text-zinc-500">{t('avis')}</span>
           </div>
           <div className="w-px h-6 bg-zinc-700 hidden sm:block" />
           <div className="flex items-center gap-2">
             <Clock className="w-5 h-5 text-amber-500" />
+             <span className="text-zinc-500">{t('Lundi-Samedi')}</span>
           </div>
         </div>
 

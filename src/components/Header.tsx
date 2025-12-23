@@ -47,13 +47,13 @@ export function Header({ onBookClick, currentSection }: HeaderProps) {
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-28">
+        <div className="flex items-center justify-between h-16 sm:h-20 lg:h-28">
           {/* Logo */}
           <a href="#" className="flex items-center gap-3 group">
             <img
               src="/logo.GIF"
               alt="Elegant Cutz"
-              className="h-20 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
+              className="h-10 sm:h-14 lg:h-20 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
             />
           </a>
 
@@ -101,11 +101,11 @@ export function Header({ onBookClick, currentSection }: HeaderProps) {
               className="w-full sm:w-80 bg-zinc-950 border-zinc-800 p-0"
             >
               <div className="flex flex-col h-full">
-                <div className="flex items-center justify-between p-6 border-b border-zinc-800">
+                <div className="flex items-center justify-between p-4 border-b border-zinc-800">
                   <img
                     src="/logo.GIF"
                     alt="Elegant Cutz"
-                    className="h-16 w-auto object-contain"
+                    className="h-12 w-auto object-contain"
                   />
                   <Button
                     variant="ghost"
